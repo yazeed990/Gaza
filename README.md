@@ -1,39 +1,27 @@
-"Gaza Donation Site"
+This project is a responsive Donation website made to support Gaza.  
+---
 
-  This is a simple and informative donation encouragement 
-  website built using HTML and CSS. The site aims to raise awareness 
-  and motivate visitors to donate to official and trustworthy platforms supporting Gaza.
 
-Features
-Clear explanation of the current situation in Gaza
+**Important!!**
 
-Sahih Hadith and Islamic motivation for donations
+### ⚠️ Web Dev Tip for Arabic Sites (Mobile Layout Bug)
 
-Organized sections with helpful images
+While working on this project, I faced a very strange layout bug on mobile:
 
-Direct links to official donation websites
+- The screen was cut in half.
+- The layout shrinks weirdly on small screens.
+- Nothing worked — tried grid fixes, media queries, overflow settings,.. etc.
 
-Responsive and minimal design
+I literally spent **Over 5 hours debugging** this.   No Kidding
 
-Purpose
-The goal of this project is to encourage ethical and transparent donations by providing accurate information and trusted sources. It also serves as a practical project for improving my frontend development skills.
+### 🧠 Solution?
 
-Technologies Used
-- HTML5
-- CSS3
-- Javascript
-- Vite 
+```In CSS:
+        font-family: "Noto Kufi Arabic";
 
-Basic responsive design principles
+        ❌ This font breaks responsive layouts.
+        ✅ Once I removed this font, everything returned to its proper place instantly.
+        ✅ Switching to a safer Arabic font like "Cairo" fixed the issue.
 
-How to Use
-Clone the repository:
-
-bash
-نسخ
-تحرير
-git clone https://github.com/your-username/gaza-donation-site.git
-Open the index.html file in any web browser.
-
-Notes
-No backend or JavaScript is used in this version.
+I cried when it worked. If you're building Arabic websites — check your font first.
+Hope this helps someone and saves hours of pain. 🙏
