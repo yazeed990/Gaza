@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "fem-manage-landing-page",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../Downloads/manage-landing-page-master/manage-landing-page-master/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fem-manage-landing-page"
+	}
+}
